@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <meta name="supported-color-schemes" content="dark">
+    <title></title>
+    <style type="text/css">
+        /*<![CDATA[*/
+        :root {
+            color-scheme: dark;
+            supported-color-schemes: dark;
+        }
+        a {outline: none;color: #00aeef;text-decoration:none;}
+        a:hover {text-decoration: none!important;}
+        a[x-apple-data-detectors] {color: inherit!important;text-decoration: none!important;}
+        a[href^="tel"] {text-decoration: none!important;color: #00aeef;}
+        a[href^="tel"]:hover {text-decoration: none!important;}
+
+        .active-i a:hover,
+        .active-t:hover {
+            opacity: 0.8;
+        }
+
+        .active-i a,
+        .active-t,
+        .active-t2{
+            transition: all 0.3s ease;
+        }
+        .active-t2:hover{
+            background: #d9d9d9;
+
+        }
+
+        a img {border: none;}
+        b,
+        strong {font-weight: 700;}
+
+        th {padding: 0;}
+
+        @media only screen and (max-width:500px) {
+            /*defaultstyle*/
+            .flexible {
+                width: 100%!important;
+            }
+            td[class="flexible"],
+            table[class="flexible"] {
+                width: 100%!important;
+            }
+            .table-center {
+                float: none!important;
+                margin: 0 auto!important;
+            }
+            .db {display: block!important;}
+            .di {display: inline!important;}
+            .dtc {display: table-cell!important;}
+            .img-flex img {width: 100%!important;height: auto!important;}
+            td[class="flexible"] img {width: 100%!important;height: auto!important;}
+            .aligncenter {text-align: center!important;}
+            .flex {
+                display: block!important;
+                width: 100%!important;
+                max-width:100%!important;
+            }
+            td[class="flex"],
+            table[class="flex"] {
+                display: inline-block!important;
+                width: 100%!important;
+                max-width:100%!important;
+            }
+            span[class="hide-m"],
+            td[class="hide-m"] {display: none!important;width: 100%!important;}
+            .hide-m {
+                display: none!important;
+                width: 0!important;
+                height: 0!important;
+                padding: 0!important;
+                font-size: 0!important;
+                line-height: 0!important;
+            }
+            .b-n {border: none!important;}
+            .bg-n {background: none!important;}
+            .va-t {vertical-align: top!important;}
+            .va-m {vertical-align: middle!important;}
+            .va-b {vertical-align: bottom!important;}
+            .w-a {width: auto!important;}
+            .h-a {height: auto!important;}
+            /*customstyle*/
+            .pt-350 { padding-top: 350px!important;}
+            .ptb-0 { padding-top: 0px!important;padding-bottom: 0px!important;}
+            .pb-20 { padding-bottom: 20px!important;}
+            .bg-n {background-image: none!important;}
+            .w-260 {width: 260px!important;}
+            .w-280 {width: 280px!important;}
+            .plr-10 { padding-left: 10px!important;padding-right: 10px!important;}
+            .plr-20 {padding-left: 20px!important;padding-right: 20px!important;}
+            .plr-0 {padding-left: 0!important;padding-right: 0!important;}
+            .pr-10 {padding-right: 10!important;}
+            .n-ja{
+                text-align:left!important;
+            }
+        }
+        @media (max-width: 700px) {
+            .full-w-mob {
+                width: 100% !important;
+                max-width: none !important;
+            }
+        }
+        @media (prefers-color-scheme: dark ) {
+            .darkmode { background-color: #E4E9EB !important; }
+            .text_darkmode { color:#111111 !important;}
+            .text_darkmode2 { color:#e5800f !important;}
+            .red_darkmode { background-color: #e5800f !important; }
+            .link_darkmode a {color:#ffffff !important}
+        }
+        [data-ogsc] .darkmode { background-color: #ffffff !important; }
+        [data-ogsc] .text_darkmode { color:#111111 !important;}
+        [data-ogsc] .text_darkmode2 { color:#e5800f !important;}
+        [data-ogsc] .red_darkmode { background-color: #e5800f !important; }
+        [data-ogsc] .link_darkmode a {color:#ffffff !important}
+        /*]]>*/
+    </style>
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse !important;}
+    </style>
+    <![endif]-->
+</head>
+<body style="Margin:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;min-width:100%;background-color:#E4E9EB;" class="darkmode">
+<center class="wrapper" style="width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+    <table align="center" bgcolor="#E4E9EB" border="0" cellpadding="0" cellspacing="0" width="100%" class="darkmode">
+        <tr>
+            <td align="center">
+                <div class="webkit" style="margin:0 auto;max-width:700px;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table width="700" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;font-family:sans-serif;color:#333333;" >
+                        <tr>
+                            <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                    <![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="outer" style="border-spacing:0;font-family:sans-serif;color:#333333;Margin:0 auto;width:100%;max-width:700px; padding: 0;" width="100%">
+                        <tr>
+                            <td align="center" height="100%" style="padding: 0px 0 0;" valign="top" width="100%">
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="700">
+                                    <tr>
+                                        <td align="center" valign="top" width="700">
+                                <![endif]-->
+                                <table align="center" border="0" cellpadding="0" bgcolor="#E4E9EB" cellspacing="0" style="max-width:700px;" width="100%" class="darkmode">
+                                    <tr>
+                                        <td align="center" style="padding:0 0 0px;background:#FBFBFB;" bgcolor="#FBFBFB">
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            <table align="center" border="0" cellspacing="0" cellpadding="0" width="700">
+                                                <tr>
+                                                    <td align="center" valign="top" width="700">
+                                            <![endif]-->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:700px;" width="100%">
+                                                <tr>
+                                                    <td align="center" style="padding:0px;">
+                                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td align="center" style="padding:0 0 10px;font-family: Tahoma, Arial, sans-serif;font-size:18px;color:#111111;" valign="top"><img src="img/header_bird_0806.jpg.png" style="width:100%!important;max-width: 700px;border: 0;display:block;vertical-align:top;" width="700" alt="Общероссийский информационно-образовательный проект | Актуальные вопросы онкологии: клинические и организационные аспекты"></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" width="25"></td>
+                                                                            <td align="left">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="center" style="font-family: Tahoma, Arial, sans-serif; font-size: 18px; line-height: 20px; color: #1d1d1b; padding: 15px 0 20px;">
+                                                                                            <span style="color: #1d1d1b;">Региональная научно-практическая конференция
+                                                                                            &laquo;</span><span style="font-weight: bold;color: #1d1d1b;">Школа&nbsp;по&nbsp;комбинированным методам лечения
+                                                                                            в&nbsp;онкологии: малоинвазивные технологии в&nbsp;онкохирургии</span><br>
+                                                                                            <span style="font-size: 16px;color: #1d1d1b;">(онкоурология, торакоабдоминальная онкохирургия, хирургия молочной&nbsp;железы)</span><br>
+                                                                                            <span style="font-weight: bold;color: #1d1d1b;">и&nbsp;вопросы лекарственной терапии</span>&raquo;
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                            <td align="left" width="25"></td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" width="25"></td>
+                                                                            <td align="left">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="center" style="font-family: Tahoma, Arial, sans-serif; font-size: 20px; line-height: 24px; color: #e5800f; padding: 0 0 20px;font-weight: bold;">
+                                                                                            Запись эфира доступна для свободного просмотра до&nbsp;30&nbsp;октября 2020 года
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                            <td align="left" width="25"></td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+
+                                                            <tr>
+                                                                <td align="center" style="padding:0 15px;">
+                                                                    <table align="center" cellpadding="0" cellspacing="0">
+                                                                        <tbody><tr>
+                                                                            <td align="center" style="mso-padding-alt:6px 10px 6px; font-family: Tahoma, Arial, sans-serif; text-align:center;background:#E5800F;border-radius:5px;">
+                                                                                <a rel="noopener noreferrer" class="db" href="https://praesens.ru/onkologam/aktualnye-voprosy-onkologii/tambov/#_superblok4345.html" target="_blank" style="padding:6px 20px 6px; color:#ffffff; text-decoration:none; display:block;font-size: 17px;line-height:20px;">Посмотреть запись</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" width="25"></td>
+                                                                            <td align="left">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="center" style="font-family: Tahoma, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #1d1d1b; padding: 20px 0 20px;">
+                                                                                            Под эгидой <span style="font-weight: bold;color: #1d1d1b;">Национального медицинского исследовательского центра&nbsp;радиологии Минздрава России</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #1d1d1b; padding: 0 0 25px;">
+                                                                                            <span style="font-weight: bold;color: #e5800f;">Ключевые спикеры&nbsp;</span>&mdash; ведущие специалисты НМИЦ радиологии Минздрава России&nbsp;и&nbsp;эксперты Тамбовского областного онкологического клинического диспансера.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                            <td align="left" width="25"></td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" width="25"></td>
+                                                                            <td align="left">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="center" style="font-family: Tahoma, Arial, sans-serif; font-size: 20px; line-height: 24px; color: #e5800f; padding: 0 0 15px;font-weight: bold;">Научные руководители проекта
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                            <td align="left" width="25"></td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" width="25"></td>
+                                                                            <td align="left">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" style="padding: 0 0 15px;">
+                                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                                                <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="left" width="20%" valign="top" style="padding-right: 15px;"><img src="img/photo1.png" alt="Костин Андрей Александрович" style="vertical-align: top; width: 100%!important; max-width: 120px;" width="120"></td>
+                                                                                                    <td align="left" valign="middle">
+                                                                                                        <!--[if (gte mso 9)|(IE)]>
+                                                                                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="350">
+                                                                                                            <tr>
+                                                                                                                <td align="left" valign="top" width="350">
+                                                                                                        <![endif]-->
+                                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 520px;" width="100%">
+                                                                                                            <tbody>
+                                                                                                            <tr>
+                                                                                                                <td align="left" style="font-family: Tahoma, Arial, sans-serif; font-size: 14px; line-height: 18px; color: #1d1d1b;">
+                                                                                                                    <span style="color: #1d1d1b;font-weight: bold;">Костин Андрей Александрович</span>, член-корр. РАН, докт. мед. наук, проф., первый проректор Российского университета дружбы народов, главный научный сотрудник НМИЦ радиологии Минздрава России, зав. кафедрой урологии, онкологии и&nbsp;радиологии Российского университета дружбы народов, главный внештатный специалист онколог Минздрава Московской области
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                        <!--[if (gte mso 9)|(IE)]>
+                                                                                                        </td>
+                                                                                                        </tr>
+                                                                                                        </table>
+                                                                                                        <![endif]-->
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                    <tr>
+                                                                                        <td align="left" style="padding: 0 0 10px;">
+                                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                                                <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="left" width="20%" valign="top" style="padding-right: 15px;"><img src="img/photo2.png" alt="Самсонов Юрий Владимирович" style="vertical-align: top; width: 100%!important; max-width: 120px;" width="120"></td>
+                                                                                                    <td align="left" valign="middle">
+                                                                                                        <!--[if (gte mso 9)|(IE)]>
+                                                                                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="350">
+                                                                                                            <tr>
+                                                                                                                <td align="left" valign="top" width="350">
+                                                                                                        <![endif]-->
+                                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 520px;" width="100%">
+                                                                                                            <tbody>
+                                                                                                            <tr>
+                                                                                                                <td align="left" style="font-family: Tahoma, Arial, sans-serif; font-size: 14px; line-height: 18px; color: #1d1d1b;">
+                                                                                                                    <span style="color: #1d1d1b;font-weight: bold;">Самсонов Юрий Владимирович</span>, канд. мед. наук, зав. отделом координации медицинской помощи Центра координации деятельности учреждений регионов Российской Федерации в&nbsp;области радиологии и&nbsp;онкологии НМИЦ&nbsp;радиологии Минздрава России, исполнительный директор Ассоциации организаторов здравоохранения в&nbsp;онкологии
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                        <!--[if (gte mso 9)|(IE)]>
+                                                                                                        </td>
+                                                                                                        </tr>
+                                                                                                        </table>
+                                                                                                        <![endif]-->
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                            <td align="left" width="25"></td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center" style="padding-top: 20px;">
+                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" width="15"></td>
+                                                                            <td align="left">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="center" style="font-family: Tahoma, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #111111; padding: 0 0 5px;">
+                                                                                            <span style="color: #e5800f;font-weight: bold;">15&nbsp;октября</span> в&nbsp;прямом эфире прошли трансляции из&nbsp;<b>Московского <span style="white-space:nowrap;">научно-исследовательского</span> онкологического института им.&nbsp;П.А.&nbsp;Герцена и&nbsp;из&nbsp;МРНЦ им.&nbsp;А.Ф.&nbsp;Цыба</b> жизненно важных операций:
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                            <td align="left" width="25"></td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center" style="padding:5px 10px 10px;">
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="670">
+                                                                        <tr>
+                                                                            <td align="center" valign="top" width="670">
+                                                                    <![endif]-->
+                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:670px;" width="100%">
+
+                                                                        <tbody><tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="670">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="670">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:670px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Helvetica, Arial, sans-serif;font-size:16px;color:#111111;font-weight:bold;line-height:16px;padding-top: 2px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:17px;padding-bottom: 7px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                лапароскопической резекции почки;
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Helvetica, Arial, sans-serif;font-size:16px;color:#111111;font-weight:bold;line-height:16px;padding-top: 2px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:17px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                онкопластической резекции молочной железы.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="padding-top: 15px;">
+                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" width="15"></td>
+                                                                            <td align="left">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="center" style="font-family: Tahoma, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #111111; padding: 0 10px 5px;">
+                                                                                           <span style="color: #e5800f;font-weight: bold;">16&nbsp;октября</span> состоялся полный лекционный день с&nbsp;обсуждением самых актуальных&nbsp;тем.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                            <td align="left" width="25"></td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center" style="padding:5px 10px 10px;">
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="670">
+                                                                        <tr>
+                                                                            <td align="center" valign="top" width="670">
+                                                                    <![endif]-->
+                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:670px;" width="100%">
+
+                                                                        <tbody><tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="670">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="670">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:670px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Helvetica, Arial, sans-serif;font-size:16px;color:#111111;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:17px;padding-bottom: 7px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Понятие операбельности при местнораспространённом немелкоклеточном раке лёгкого в&nbsp;эру таргетной и&nbsp;иммунотерапии.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Helvetica, Arial, sans-serif;font-size:16px;color:#111111;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:17px;padding-bottom: 7px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Эффективность двойной блокады в&nbsp;терапии раннего HER2-позитивного рака молочной железы.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Helvetica, Arial, sans-serif;font-size:16px;color:#111111;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:17px;padding-bottom: 7px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Лапароскопические хирургические вмешательства у&nbsp;больных почечноклеточным раком.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Helvetica, Arial, sans-serif;font-size:16px;color:#111111;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:17px;padding-bottom: 7px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Андрогендепривационная терапия больных РПЖ по&nbsp;современным стандартам.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Helvetica, Arial, sans-serif;font-size:16px;color:#111111;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:17px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Онкоиммунологический подход в&nbsp;лечении рака мочевого пузыря.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center" style="padding:10px 15px 10px;">
+                                                                    <table align="center" cellpadding="0" cellspacing="0">
+                                                                        <tbody><tr>
+                                                                            <td align="center" style="mso-padding-alt:6px 10px 6px; font-family: Tahoma, Arial, sans-serif; text-align:center;background:#E5800F;border-radius:5px;">
+                                                                                <a rel="noopener noreferrer" class="db" href="https://praesens.ru/files/2020/onko_S/NP_Tambov.pdf" target="_blank" style="padding:6px 20px 6px; color:#ffffff; text-decoration:none; display:block;font-size: 17px;line-height:20px;">Скачать научную программу</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                </td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td height="10"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="font-size:0;">
+                                                                    <!--[if mso]>
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td width="700" style="vertical-align:top; font-size:0; line-height:0;">
+                                                                    <![endif]-->
+                                                                    <div align="center" class="flex" style="display:inline-block; max-width:700px; vertical-align:top;">
+                                                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                            <tr>
+                                                                                <td align="center" style="font-size:0;">
+                                                                                    <!--[if mso]>
+                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                        <tr>
+                                                                                            <td width="490" style="vertical-align:top; font-size:0; line-height:0;">
+                                                                                    <![endif]-->
+                                                                                    <div align="left" class="flex" style="display:inline-block; max-width:490px; vertical-align:top;">
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0" style="padding: 0 15px;">
+                                                                                            <tbody>
+                                                                                            <tr>
+                                                                                                <td align="left" valign="top" width="50">
+                                                                                                    <img src="img/gift-orange.png" alt="." style="max-width: 40px;display: block;border: 0;" width="40">
+                                                                                                </td>
+                                                                                                <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:14px;color:#1d1d1d;line-height:1.2;padding-bottom: 10px;" valign="middle">
+                                                                                                    <span style="color: #E5800F;font-weight: bold;">SPNavigator: клинические рекомендации</span>
+                                                                                                    <br>по&nbsp;профилю «акушерство и&nbsp;гинекология», утверждённые Минздравом России, в&nbsp;вашем мобильном телефоне.
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            </tbody></table>
+                                                                                    </div>
+                                                                                    <!--[if mso]>
+                                                                                    </td>
+                                                                                    <td width="180" style="vertical-align:top; font-size:0; line-height:0;">
+                                                                                    <![endif]-->
+                                                                                    <div align="center" class="flex" style="display:inline-block; max-width:180px; vertical-align:top;">
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                            <tr>
+                                                                                                <td align="left" valign="top" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#1d1d1b;line-height:18px;padding: 0 15px 20px;">
+                                                                                                    <img src="img/sp-logo-1210.png" alt="SP Navigator" style="max-width: 165px;display: block;border: 0;" width="165">
+                                                                                                </td>
+                                                                                            </tr>
+
+                                                                                            </tbody></table>
+                                                                                    </div>
+                                                                                    <!--[if mso]>
+                                                                                    </td>
+                                                                                    </tr>
+                                                                                    </table>
+                                                                                    <![endif]-->
+                                                                                </td>
+                                                                            </tr>
+                                                                            </tbody></table>
+                                                                    </div>
+                                                                    <!--[if mso]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td height="10"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="font-size:0;">
+                                                                    <!--[if mso]>
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td width="700" style="vertical-align:top; font-size:0; line-height:0;">
+                                                                    <![endif]-->
+                                                                    <div align="center" class="flex" style="display:inline-block; max-width:700px; vertical-align:top;">
+                                                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                            <tr>
+                                                                                <td align="center" style="font-size:0;">
+                                                                                    <!--[if mso]>
+                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                        <tr>
+                                                                                            <td width="200" style="vertical-align:top; font-size:0; line-height:0;">
+                                                                                    <![endif]-->
+                                                                                    <div align="center" class="flex" style="display:inline-block; max-width:200px; vertical-align:top;">
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0" style="padding: 0 15px;">
+                                                                                            <tbody>
+                                                                                            <tr>
+                                                                                                <td align="center" valign="top">
+                                                                                                    <a href="https://apps.apple.com/ru/app/spnavigator/id1491919006" target="_blank" style="border: 0;text-decoration: none;display: block;"><img src="img/app-store-logo-1210.png" alt="SP Navigator в AppStore" style="max-width: 125px;display: block;border: 0;" width="125">
+                                                                                                    </a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            </tbody></table>
+                                                                                    </div>
+                                                                                    <!--[if mso]>
+                                                                                    </td>
+                                                                                    <td width="180" style="vertical-align:top; font-size:0; line-height:0;">
+                                                                                    <![endif]-->
+                                                                                    <div align="center" class="flex" style="display:inline-block; max-width:180px; vertical-align:top;">
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                            <tr>
+                                                                                                <td align="center" valign="top" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#1d1d1b;line-height:18px;padding: 0 15px 20px;">
+                                                                                                    <a href="https://play.google.com/store/apps/details?id=ru.spnavigator.app" target="_blank" style="border: 0;text-decoration: none;display: block;"><img src="img/play-logo-1210.png" alt="SP Navigator в Google Play" style="max-width: 125px;display: block;border: 0;" width="125">
+                                                                                                    </a>
+                                                                                                </td>
+                                                                                            </tr>
+
+                                                                                            </tbody></table>
+                                                                                    </div>
+                                                                                    <!--[if mso]>
+                                                                                    </td>
+                                                                                    </tr>
+                                                                                    </table>
+                                                                                    <![endif]-->
+                                                                                </td>
+                                                                            </tr>
+                                                                            </tbody></table>
+                                                                    </div>
+                                                                    <!--[if mso]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td align="center"><img src="img/logos1-onko-1610.png" alt="Партнёры/Организаторы" style="width:100%!important;max-width: 700px;border: 0;display:block;vertical-align:top;" width="700"></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td height="30"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="padding:40px 0 10px;" bgcolor="#E5800F" class="red_darkmode">
+                                                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                                                        <tr>
+                                                                            <td align="center" style="padding:0 0 30px">
+                                                                                <table cellpadding="0" cellspacing="0" align="center">
+                                                                                    <tr>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://vk.com/praesens" target="_blank"><img src="img/vk-white.png" alt="Vk" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://ok.ru/group/57179315372138" target="_blank"><img src="img/ok-white.png" alt="Одноклассники" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.facebook.com/Stpraesens/" target="_blank"><img src="img/fb-white.png" alt="Facebook" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.instagram.com/statuspraesens/" target="_blank"><img src="img/in-white.png" alt="Instagram" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCYN-laF1D_yucYN_Jp-OylQ/videos" target="_blank"><img src="img/sptv-white.png" alt="Youtube" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" style="padding:0 0 20px;font-family:'Trebuchet MS', sans-serif;font-size:18px;color:#a01918;font-weight:bold;" class="link_darkmode"><a rel="noopener noreferrer" rel="noopener noreferrer" href="tel:+74993463902" style="text-decoration:none;color:#ffffff;">+7 (499) 346 3902</a><br>
+                                                                                <a rel="noopener noreferrer" rel="noopener noreferrer" href="mailto:ova@praesens.ru" style="text-decoration:none;color:#ffffff;">ova@praesens.ru</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" style="font-family:'Trebuchet MS', sans-serif;font-size:14px;color:#a01918;" class="link_darkmode"><a rel="noopener noreferrer" rel="noopener noreferrer" href="{{unsubscribe_url}}" style="color:#ffffff;text-decoration:underline;">Отказаться от рассылки</a>
+                                                                                <br><br></td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            <![endif]-->
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
+                            </td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                </div>
+            </td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
