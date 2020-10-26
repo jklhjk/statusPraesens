@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="color-scheme" content="dark">
+    <meta name="supported-color-schemes" content="dark">
+    <title></title>
+    <style type="text/css">
+        /*<![CDATA[*/
+        :root {
+            color-scheme: dark;
+            supported-color-schemes: dark;
+        }
+        a {outline: none;color: #00aeef;text-decoration:none;}
+        a:hover {text-decoration: none!important;}
+        a[x-apple-data-detectors] {color: inherit!important;text-decoration: none!important;}
+        a[href^="tel"] {text-decoration: none!important;color: #00aeef;}
+        a[href^="tel"]:hover {text-decoration: none!important;}
+
+        .active-i a:hover,
+        .active-t:hover {
+            opacity: 0.8;
+        }
+
+        .active-i a,
+        .active-t,
+        .active-t2{
+            transition: all 0.3s ease;
+        }
+        .active-t2:hover{
+            background: #d9d9d9;
+
+        }
+
+        a img {border: none;}
+        b,
+        strong {font-weight: 700;}
+
+        th {padding: 0;}
+
+        @media only screen and (max-width:500px) {
+            /*defaultstyle*/
+            .flexible {
+                width: 100%!important;
+            }
+            td[class="flexible"],
+            table[class="flexible"] {
+                width: 100%!important;
+            }
+            .table-center {
+                float: none!important;
+                margin: 0 auto!important;
+            }
+            .db {display: block!important;}
+            .di {display: inline!important;}
+            .dtc {display: table-cell!important;}
+            .img-flex img {width: 100%!important;height: auto!important;}
+            td[class="flexible"] img {width: 100%!important;height: auto!important;}
+            .aligncenter {text-align: center!important;}
+            .flex {
+                display: block!important;
+                width: 100%!important;
+                max-width:100%!important;
+            }
+            td[class="flex"],
+            table[class="flex"] {
+                display: inline-block!important;
+                width: 100%!important;
+                max-width:100%!important;
+            }
+            span[class="hide-m"],
+            td[class="hide-m"] {display: none!important;width: 100%!important;}
+            .hide-m {
+                display: none!important;
+                width: 0!important;
+                height: 0!important;
+                padding: 0!important;
+                font-size: 0!important;
+                line-height: 0!important;
+            }
+            .b-n {border: none!important;}
+            .bg-n {background: none!important;}
+            .va-t {vertical-align: top!important;}
+            .va-m {vertical-align: middle!important;}
+            .va-b {vertical-align: bottom!important;}
+            .w-a {width: auto!important;}
+            .h-a {height: auto!important;}
+            /*customstyle*/
+            .pt-350 { padding-top: 350px!important;}
+            .ptb-0 { padding-top: 0px!important;padding-bottom: 0px!important;}
+            .pb-20 { padding-bottom: 20px!important;}
+            .bg-n {background-image: none!important;}
+            .w-260 {width: 260px!important;}
+            .w-280 {width: 280px!important;}
+            .plr-10 { padding-left: 10px!important;padding-right: 10px!important;}
+            .plr-20 {padding-left: 20px!important;padding-right: 20px!important;}
+            .plr-0 {padding-left: 0!important;padding-right: 0!important;}
+            .pr-10 {padding-right: 10px!important;}
+            .n-ja{
+                text-align:left!important;
+            }
+        }
+        @media (prefers-color-scheme: dark ) {
+            .darkmode { background-color: #E4E9EB !important; }
+            .text_darkmode { color:#111111 !important;}
+            .text_darkmode2 { color:#01a7d6 !important;}
+            .red_darkmode { background-color: #01a7d6 !important; }
+            .link_darkmode a {color:#ffffff !important}
+        }
+        [data-ogsc] .darkmode { background-color: #E4E9EB !important; }
+        [data-ogsc] .text_darkmode { color:#111111 !important;}
+        [data-ogsc] .text_darkmode2 { color:#01a7d6 !important;}
+        [data-ogsc] .red_darkmode { background-color: #01a7d6 !important; }
+        [data-ogsc] .link_darkmode a {color:#ffffff !important}
+        /*]]>*/
+    </style>
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse !important;}
+    </style>
+    <![endif]-->
+</head>
+<body style="Margin:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;min-width:100%;background-color:#E4E9EB;" class="darkmode">
+<center class="wrapper" style="width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+    <table align="center" bgcolor="#E4E9EB" border="0" cellpadding="0" cellspacing="0" width="100%" class="darkmode">
+        <tr>
+            <td align="center">
+                <div class="webkit" style="margin:0 auto;max-width:700px;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table width="700" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;font-family:sans-serif;color:#333333;" >
+                        <tr>
+                            <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                    <![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="outer" style="border-spacing:0;font-family:sans-serif;color:#333333;Margin:0 auto;width:100%;max-width:700px; padding: 0;" width="100%">
+                        <tr>
+                            <td align="center" height="100%" style="padding: 0px 0 0;" valign="top" width="100%">
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="700">
+                                    <tr>
+                                        <td align="center" valign="top" width="700">
+                                <![endif]-->
+                                <table align="center" border="0" cellpadding="0" bgcolor="#E4E9EB" cellspacing="0" style="max-width:700px;" width="100%" class="darkmode">
+                                    <tr>
+                                        <td align="center" style="padding:0 0 0px;background:#FBFBFB;" bgcolor="#FBFBFB">
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            <table align="center" border="0" cellspacing="0" cellpadding="0" width="700">
+                                                <tr>
+                                                    <td align="center" valign="top" width="700">
+                                            <![endif]-->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:700px;" width="100%">
+                                                <tr>
+                                                    <td align="center" style="padding:0px;">
+                                                        <table width="100%" cellpadding="0" cellspacing="0">
+
+                                                            <tr>
+                                                                <td align="center" style="font-family: Helvetica, Arial, sans-serif;font-size:18px;color:#111111;" valign="top"><img src="logo-main-detgen-1510.png" style="width:100%!important;max-width: 700px;border: 0;display:block;vertical-align:top;" width="700" alt="Общероссийская школа-интенсив | Гинекология детского, подросткового и юношеского возраста"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="font-family: Helvetica, Arial, sans-serif;font-size:18px;color:#111111;" valign="top"><img src="timeline-detgin-2610.png" style="width:100%!important;max-width: 700px;border: 0;display:block;vertical-align:top;" width="700" alt="2‒3 ноября 2020 года | Обучение платное ‒ 2000 руб. | Начало в 16.00 (мкс) | НМО 8 бвллов"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="padding:20px 15px 5px;">
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                        <tr>
+                                                                            <td align="center" valign="top" width="640">
+                                                                    <![endif]-->
+                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="center" style="font-family: Tahoma, Arial, sans-serif;font-size:22px;color:#111111;line-height:24px; padding-bottom: 10px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #c94792;">
+                                                                                    Уважаемые коллеги!
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom: 7px;" valign="top" class="text_darkmode">
+                                                                                <span style="color: #111111;">
+                                                                                    Гинекологическая помощь девочкам и&nbsp;подросткам&nbsp;&mdash; одна из&nbsp;труднорешаемых проблем акушерско-гинекологической службы в&nbsp;России. <b>Детское здоровье лучше не&nbsp;становится</b>: в&nbsp;среднем на&nbsp;каждую девочку, по&nbsp;данным 2018&nbsp;года, приходится 2,3 диагностированного заболевания; одновременно растёт частота гинекологических нарушений, в&nbsp;первую очередь связанных <b>со&nbsp;становлением менструального цикла</b>.
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom: 7px;" valign="top" class="text_darkmode">
+                                                                                <span style="color: #111111;">
+                                                                                    При этом в&nbsp;связи с&nbsp;упразднением в&nbsp;2014 году специальности &laquo;детская и&nbsp;подростковая гинекология&raquo; основная нагрузка легла на&nbsp;плечи <b>врача женской консультации</b>. Консультирование, особенности течения гинекологических заболеваний, юридические аспекты взаимодействия с&nbsp;несовершеннолетними пациентами&nbsp;&mdash; вот далеко не&nbsp;полный перечень вопросов, которые стоят сегодня перед практическими врачами.
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom: 7px;" valign="top" class="text_darkmode">
+                                                                                <span style="color: #111111;">
+                                                                                    В&nbsp;современных реалиях каждому акушеру-гинекологу, работающему в&nbsp;амбулаторном звене, необходимо владеть базовыми знаниями и&nbsp;навыками, чтобы оказывать начальную медицинскую помощь девочкам и&nbsp;подросткам <b>до&nbsp;их&nbsp;направления</b> к&nbsp;главным специалистам и&nbsp;ведущим экспертам региона.
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;" valign="top" class="text_darkmode">
+                                                                                <span style="color: #111111;">
+                                                                                    О&nbsp;практической востребованности <b>базовых знаний</b> по&nbsp;теме детской и&nbsp;подростковой гинекологии дополнительно свидетельствуют многочисленные запросы от&nbsp;врачей-практиков, поступающие с&nbsp;завидной регулярностью на&nbsp;протяжении нескольких лет в&nbsp;адрес Ассоциации МАРС. Надеемся, что организуемая нами двухдневная школа-интенсив позволит хотя&nbsp;бы частично удовлетворить информационные потребности акушеров-гинекологов.
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="padding:10px 15px 5px;">
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                        <tr>
+                                                                            <td align="center" valign="top" width="640">
+                                                                    <![endif]-->
+                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="center" style="font-family: Tahoma, Arial, sans-serif;font-size:22px;color:#111111;line-height:24px; padding-bottom: 10px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #c94792;">
+                                                                                    Ключевые спикеры школы-интенсива
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;" valign="top" class="text_darkmode">
+                                                                                <span style="color: #111111;">
+                                                                                    <b>Радзинский Виктор Евсеевич</b>, засл. деятель науки&nbsp;РФ, член-корр. РАН, проф. (Москва)
+                                                                                    <br><b>Андреева Елена Николаевна</b>, докт. мед. наук, проф. (Москва)
+                                                                                    <br><b>Ульрих Елена Александровна</b>, докт. мед. наук, проф. (<span style="white-space: nowrap;">Санкт-Петербург</span>)
+                                                                                    <br><b>Хамошина Марина Борисовна</b>, докт. мед. наук, проф. (Москва)
+                                                                                    <br><b>Гоготадзе Ирина Николаевна</b>, доц. (<span style="white-space: nowrap;">Санкт-Петербург</span>)
+                                                                                    <br><b>Кохреидзе Надежда Анатольевна</b>, докт. мед. наук, проф. (<span style="white-space: nowrap;">Санкт-Петербург</span>)
+                                                                                    <br><b>Рычкова Татьяна Ивановна</b>, доц. (Москва)
+                                                                                    <br><b>Елгина Светлана Ивановна</b>, докт. мед. наук, проф. (Кемерово)
+                                                                                    <br><b>Миронова Анна Валерьевна</b>, доц. (<span style="white-space: nowrap;">Санкт-Петербург</span>)
+                                                                                    <br><b>Васюкова Ольга Владимировна</b>, канд. мед. наук (Москва)
+                                                                                    <br><b>Ипполитова Марина Фёдоровна</b>, канд. мед. наук (<span style="white-space: nowrap;">Санкт-Петербург</span>)
+                                                                                    <br><b>Абсаттарова Юлия Сергеевна</b>, канд. мед. наук (Москва)
+                                                                                    <br><b>Иванов Александр Васильевич</b> (Москва)
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center" style="padding:10px 15px 0;">
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                        <tr>
+                                                                            <td align="center" valign="top" width="640">
+                                                                    <![endif]-->
+                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="center" style="font-family: Tahoma, Arial, sans-serif;font-size:22px;color:#111111;line-height:24px; padding-bottom: 10px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #c94792;">
+                                                                                    Основные темы научной программы
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center" style="padding:0 10px;" >
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                        <tr>
+                                                                            <td align="center" valign="top" width="640">
+                                                                    <![endif]-->
+                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:16px;color:#111111;line-height:20px; padding-bottom: 3px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #01a7d6;">
+                                                                                    Гинекология детского, подросткового и&nbsp;юношеского возраста. Зона демографической ответственности:
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="640">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Здоровье девочки сегодня&nbsp;&mdash; здоровье будущих поколений завтра.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                 Организация гинекологической службы детей и&nbsp;подростков.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Юридические аспекты организации работы с&nbsp;детьми и&nbsp;подростками.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:16px;color:#111111;line-height:20px; padding-bottom: 3px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #01a7d6;">
+                                                                                    Физиология детского, подросткового и&nbsp;юношеского возраста:
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="640">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                На&nbsp;приёме пациентка 18&minus;. Методы обследования&nbsp;&mdash; что должен знать гинеколог.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:16px;color:#111111;line-height:20px; padding-bottom: 3px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #01a7d6;">
+                                                                                    Нарушение половой дифференцировки и&nbsp;полового развития:
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="640">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Преждевременное половое созревание.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                 Задержка полового созревания.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Вирильный синдром: что должен знать гинеколог.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:16px;color:#111111;line-height:20px; padding-bottom: 3px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #01a7d6;">
+                                                                                    Менструальный цикл без проблем. Возможно&nbsp;ли это?
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="640">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Маточные кровотечения пубертатного периода.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                 Дисменорея у&nbsp;подростков.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Предменструальный синдром.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:16px;color:#111111;line-height:20px; padding-bottom: 3px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #01a7d6;">
+                                                                                    Эндокринопатии в&nbsp;детском, подростковом и&nbsp;юношеском возрасте. Взгляд гинеколога:
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="640">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Гипоталамическая дисфункция ювениального периода.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Нарушение пищевого поведения&nbsp;&mdash; к&nbsp;чему приводит...
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                 Врождённая дисфункция коры надпочечников в&nbsp;детском возрасте. Клинические рекомендации.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Поликистоз яичников у&nbsp;подростков.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:16px;color:#111111;line-height:20px; padding-bottom: 3px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #01a7d6;">
+                                                                                    Пролиферативные заболевания репродуктивной системы в&nbsp;детском, подростковом и&nbsp;юношеском возрасте:
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="640">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Эндометриоз.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                 Доброкачественные дисплазии молочной железы в&nbsp;подростковом и&nbsp;юношеском возрасте.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Объёмные образования яичников.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:16px;color:#111111;line-height:20px; padding-bottom: 3px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #01a7d6;">
+                                                                                    Воспалительные заболевания в&nbsp;детском, подростковом и&nbsp;юношеском возрасте:
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="640">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Вульвовагиниты.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                 Дефлорационный цистит.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                 Воспалительные заболевания органов малого таза.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:16px;color:#111111;line-height:20px; padding-bottom: 3px;" valign="top" class="text_darkmode">
+                                                                                <span style="font-weight: bold;color: #01a7d6;">
+                                                                                    Ювенильная беременность:
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top" width="640">
+                                                                                <![endif]-->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                                    <tbody>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Методы профилактики нежелательной беременности у&nbsp;сексуально активных подростков.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                 Особенности консультирования подростков.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;padding-bottom: 5px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                Экстренная контрацепция.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left" width="15" style="font-family: Tahoma, Arial, sans-serif;font-size:12px;color:#01a7d6;font-weight:bold;line-height:16px;" valign="top">•</td>
+                                                                                        <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:15px;color:#111111;line-height:18px;padding-bottom:3px;" valign="top" class="text_darkmode">
+                                                                                            <span style="color: #111111;">
+                                                                                                 Ведение ювенильной беременности и&nbsp;родов.
+                                                                                            </span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    </tbody></table>
+                                                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                </td>
+                                                                                </tr>
+                                                                                </table>
+                                                                                <![endif]-->
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td height="10"></td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td align="center" style="padding:10px 15px 20px;">
+                                                                    <table align="center" cellpadding="0" cellspacing="0">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="center" style="mso-padding-alt:7px 20px 7px; font-family: Helvetica, Arial, sans-serif; text-align:center;background:#c94792;border-radius:4px;"><a rel="noopener noreferrer" class="db" href="https://praesens.ru/online2020/detskaya-ginekologiya/" target="_blank" style="padding:7px 20px 7px; color:#ffffff; text-decoration:none; display:block;font-size: 24px;font-weight: bold;line-height:26px;">Регистрация и&nbsp;оплата</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                </td>
+                                                            </tr>
+
+
+
+
+                                                            <tr>
+                                                                <td align="center" style="padding-top: 5px;width: 100%;"></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center" style="padding:20px 15px 5px;">
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                        <tr>
+                                                                            <td align="center" valign="top" width="640">
+                                                                    <![endif]-->
+                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" width="260" style="font-family: Tahoma, Arial, sans-serif;font-size:16px;color:#111111;line-height:18px;padding-bottom: 7px;" valign="middle" class="text_darkmode">
+                                                                                <span style="color: #575756;">
+                                                                                    <b>При поддержке</b>
+                                                                                </span>
+                                                                            </td>
+                                                                            <td align="left">
+                                                                                <img src="rihter-2610.png" alt="Гедеон Рихтер" style="width:100%!important;max-width: 105px;border: 0;display:block;vertical-align:top;" width="105">
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="padding:20px 15px 5px;">
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                                                                        <tr>
+                                                                            <td align="center" valign="top" width="640">
+                                                                    <![endif]-->
+                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;" width="100%">
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: Tahoma, Arial, sans-serif;font-size:14px;color:#111111;line-height:18px;padding-bottom: 7px;" valign="middle" class="text_darkmode">
+                                                                                <span style="color: #111111;">
+                                                                                    По&nbsp;вопросам партнерского участия: Медведева Анастасия, <a
+                                                                                        href="mailto:am@praesens.ru" target="_blank" style="text-decoration: underline;color: #111111;">am@praesens.ru</a>, <a href="tel:79250068476" target="_blank" style="text-decoration: underline;color: #111111;">+7&nbsp;(925)&nbsp;006&nbsp;8476</a>.
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody></table>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <![endif]-->
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="10"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="padding:10px 15px 10px;" bgcolor="#01a7d6" class="red_darkmode">
+                                                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                                                        <tr>
+                                                                            <td align="center" style="padding: 0;width: 100%;"><img src="planet-line-1510.png" alt="Онлайн-планетарий" style="width:100%!important;max-width: 700px;border: 0;display:block;vertical-align:top;" width="700"></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td style="height: 10px; border-bottom-width: 1px;border-bottom-color: #ffffff;border-bottom-style: solid;" height="10"></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" style="padding:30px 0 30px">
+                                                                                <table cellpadding="0" cellspacing="0" align="center">
+                                                                                    <tr>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://vk.com/praesens" target="_blank"><img src="vk-white.png" alt="Vk" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://ok.ru/group/57179315372138" target="_blank"><img src="ok-white.png" alt="Одноклассники" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.facebook.com/Stpraesens/" target="_blank"><img src="fb-white.png" alt="Facebook" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.instagram.com/statuspraesens/" target="_blank"><img src="in-white.png" alt="Instagram" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                        <td align="center" style="padding:0 10px"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCYN-laF1D_yucYN_Jp-OylQ/videos" target="_blank"><img src="sptv-white.png" alt="Youtube" style="border:0;vertical-align:top;" width="42"></a></td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" style="padding:0 0 20px;font-family:'Trebuchet MS', sans-serif;font-size:18px;color:#a01918;font-weight:bold;" class="link_darkmode"><a rel="noopener noreferrer" rel="noopener noreferrer" href="tel:+74993463902" style="text-decoration:none;color:#ffffff;">+7 (499) 346 3902</a><br>
+                                                                                <a rel="noopener noreferrer" rel="noopener noreferrer" href="mailto:ova@praesens.ru" style="text-decoration:none;color:#ffffff;">ova@praesens.ru</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" style="font-family:'Trebuchet MS', sans-serif;font-size:14px;color:#a01918;" class="link_darkmode"><a rel="noopener noreferrer" rel="noopener noreferrer" href="{{unsubscribe_url}}" style="color:#ffffff;text-decoration:underline;">Отказаться от рассылки</a>
+                                                                                <br><br></td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            <![endif]-->
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
+                            </td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                </div>
+            </td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
